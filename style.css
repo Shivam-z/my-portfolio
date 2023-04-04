@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Alkatra', cursive;
+    font-size: 16px;
+    background-image: url('./img/bg.jpg');
+
+    color: rgb(35 22 22);
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav li:last-child {
+    margin-right: 0;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+  .grid-item img {
+    width: 100%;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2
+  }
+  img{
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    border: 2px solid #bbb0b0e8;
+    border-radius: 12px;
+  }
+
+
+#contact a{
+  text-decoration: none;
+  color: #000;
+}
+
+.container{
+  text-align: center;
+  margin: 250px ;
+}
+#about{
+  margin-top: 200px;
+  margin-bottom: 300px;
+  line-height: 30px;
+  font-family: 'Alkatra', cursive;
+}
+#about pre{
+  font-family: 'Alkatra', cursive;
+}
+#contact{
+  margin-bottom: 300px;
+  line-height: 40px;
+
+}
+
+#contact a:hover{
+  background-color:rgba(255, 255, 255, 0.985);
+  color: rgb(86, 42, 42);
+}
+
+#about-img{
+  float: right;
+}
+
+#about-img img{
+  border-radius: 150px;
+}
